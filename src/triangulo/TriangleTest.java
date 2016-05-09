@@ -1,4 +1,4 @@
-package tests;
+package triangulo;
 
 import static org.junit.Assert.*;
 import triangulo.*;

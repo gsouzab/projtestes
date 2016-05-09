@@ -6,7 +6,7 @@ import triangulo.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class Testes {
+public class DeteccaoColicaoTest {
 
 	public DeteccaoColisao dc = null;
 	
