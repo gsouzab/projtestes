@@ -3,7 +3,6 @@ package banco;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Scanner;
 
 public class Banco {
 	
@@ -52,20 +51,23 @@ public class Banco {
 	
 //	public static void main(String[] args) {
 //		
-//		Scanner scanner = new Scanner(System.in);
 //		
-//		int c = scanner.nextInt();
-//		int n = scanner.nextInt();
-//		
-//		int[][] tempos = new int[n][2];
+//		int[][] tempos;
 //
-//		for (int i = 0; i < n; i++){
-//			tempos[i][0] = scanner.nextInt();
-//			tempos[i][1] = scanner.nextInt();
-//		}
+//		tempos = new int[5][2];
 //		
-//		System.out.println(banco(c, n, tempos));
+//		tempos[0][0] = 0;
+//		tempos[0][1] = 10;
+//		tempos[1][0] = 0;
+//		tempos[1][1] = 10;
+//		tempos[2][0] = 1;
+//		tempos[2][1] = 10;
+//		tempos[3][0] = 2;
+//		tempos[3][1] = 10;
+//		tempos[4][0] = 30;
+//		tempos[4][1] = 10;
 //		
-//		scanner.close();		
+//		System.out.println(banco(2, 5, tempos));
+//		
 //	}
 }

@@ -13,8 +13,6 @@ public class BancoTest {
 	public void setUp() {
 		banco = new Banco();
 		tempos = new int[2][2];
-		tempos[0][0] = 1;
-		tempos[0][1] = 1;
 	}
 	
 	@Test
@@ -26,7 +24,35 @@ public class BancoTest {
 	@Test
 	public void testTwo() {
 		// Test Path = [1, 3, 4, 5]		
-		assertEquals(0, banco.banco(0, 2, tempos));		
+		assertEquals(0, banco.banco(0, 1, tempos));		
 	}
+	
+	@Test
+	public void testThree() {
+		// Test Path = [1, 3, 4, 6, 7, 9, 7, 8, 10, 12, 13, 5]
+		
+		tempos = new int[2][2];
+		tempos[0][0] = 0;
+		tempos[0][1] = 30;
+		tempos[1][0] = 0;
+		tempos[1][1] = 10;
+		
+		assertEquals(1, banco.banco(1, 2, tempos));		
+	}
+	
+	@Test
+	public void testFive() {
+		// Test Path = [1, 3, 4, 6, 7, 9, 7, 8, 10, 12, 13, 5]
+		
+		tempos = new int[2][2];
+		tempos[0][0] = 0;
+		tempos[0][1] = 30;
+		tempos[1][0] = 0;
+		tempos[1][1] = 10;
+		
+		assertEquals(1, banco.banco(1, 2, tempos));		
+	}
+	
+	
 	
 }
