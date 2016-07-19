@@ -1,8 +1,6 @@
 package colisaoRetangulos;
 
 import static org.junit.Assert.*;
-import triangulo.*;
-
 import org.junit.Before;
 import org.junit.Test;
 
