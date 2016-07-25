@@ -7,7 +7,7 @@ import java.util.Random;
 import org.junit.Before;
 import org.junit.Test;
 
-public class BancoTest {
+public class ISPBancoTest {
 
 	public Banco banco = null;
 	int[][] tempos;
