@@ -30,7 +30,7 @@ public class Banco {
 					}
 				}
 				
-				if (caixas > 1){
+				if (caixas > 0){
 					caixas = caixas - 1;
 					termina.add(tempos[i][0]+tempos[i][1]);
 				} else {
