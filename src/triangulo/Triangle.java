@@ -1,5 +1,4 @@
 package triangulo;
-import java.util.*;
 
 public class Triangle {
 
